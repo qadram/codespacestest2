@@ -1,0 +1,33 @@
+object Form1: TForm1
+  Color = clWhite
+  Font.Charset = ANSI_CHARSET
+  Font.Color = clBlack
+  Font.Height = -11
+  Font.Name = 'Arial'
+  Font.Size = 8
+  Font.Style = []
+  FormStyle = fsNormal
+  Height = 480
+  Left = 0
+  TabOrder = 0
+  Top = 0
+  Width = 640
+  object WebButton1: TWebButton
+    Caption = 'WebButton1'
+    Color = clNone
+    Default = False
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -11
+    Font.Name = 'Arial'
+    Font.Size = 8
+    Font.Style = []
+    Height = 165
+    Left = 125
+    OnClick = WebButton1Click
+    Role = 'button'
+    TabOrder = 0
+    Top = 122
+    Width = 301
+  end
+end
